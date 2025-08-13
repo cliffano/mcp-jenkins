@@ -1,0 +1,16 @@
+{
+  "options": [
+  ],
+  "commands": {
+    "run": {
+      "desc": "Run MCP Jenkins server",
+      "args": [
+      ],
+      "options": [
+      ],
+      "examples": [
+        "mcp-jenkins run"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+- params:
+    mcpJenkins: "../../../../../bin/mcp-jenkins.js"
+    base: ../../../../../
+
+- description: Command help should display help information
+  command: '{mcpJenkins} --help'
+  exitcode: 0
+  output: 'Usage: mcp-jenkins'
