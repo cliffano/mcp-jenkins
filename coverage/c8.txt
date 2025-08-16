@@ -1,4 +1,4 @@
-test | /opt/hostedtoolcache/node/24.6.0/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
+test | /opt/hostedtoolcache/node/20.19.4/x64/lib/node_modules/bob/node_modules/.bin/mocha --colors --reporter spec --recursive test/
 
 [0m[0m
 [0m  cli - exec[0m
@@ -11,10 +11,10 @@ SUCCESS | exit code 0
 -----------------------------|---------|----------|---------|---------|-------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------------|---------|----------|---------|---------|-------------------
-All files                    |    61.2 |      100 |   16.66 |    61.2 |                   
- lib                         |   59.09 |      100 |      25 |   59.09 |                   
-  cli.js                     |   70.45 |      100 |      50 |   70.45 | 10-22             
-  mcpJenkins.js              |   51.51 |      100 |       0 |   51.51 | 24-52,58-60       
+All files                    |   59.11 |      100 |   16.66 |   59.11 |                   
+ lib                         |   55.55 |      100 |      25 |   55.55 |                   
+  cli.js                     |   66.66 |      100 |      50 |   66.66 | 15-32             
+  mcpJenkins.js              |   44.44 |      100 |       0 |   44.44 | 14-40,46-48       
  lib/tools                   |   64.38 |      100 |       0 |   64.38 |                   
   buildJenkinsJobWithName.js |   64.86 |      100 |       0 |   64.86 | 16-28             
   checkJenkinsVersion.js     |   63.88 |      100 |       0 |   63.88 | 15-27             
